@@ -212,7 +212,7 @@ i.close.show {
 /* post */
 .post {
   position: absolute;
-  bottom: -5%;
+  bottom: -25%;
   right: 5%;
   width: 90%;
   max-width: 300px;
@@ -220,6 +220,22 @@ i.close.show {
   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.7);
   padding: 0.5rem 1rem;
   z-index: 1;
+}
+
+@media only screen and (min-width: 400px) {
+  .post {
+    position: absolute;
+    bottom: -15%;
+    right: 5%;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .post {
+    position: absolute;
+    bottom: -10%;
+    right: 5%;
+  }
 }
 
 .user {
